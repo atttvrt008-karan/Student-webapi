@@ -1,0 +1,17 @@
+using System.ComponentModel.DataAnnotations;
+using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Collections.Generic;
+
+namespace WebApi.Entities
+
+
+{
+    // [Keyless]
+    public class StudentImage
+    {
+      public int id {get;set;}
+        public int rollno {get;set;}
+        public string  image {get;set;}
+    }
+}

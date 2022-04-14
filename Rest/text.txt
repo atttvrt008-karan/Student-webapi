@@ -1,0 +1,4 @@
+https://swapi.dev/api/people/
+
+https://localhost:5001/api/students/rollno
+
